@@ -1,0 +1,13 @@
+{
+  "name": "@posterum/frontend",
+  "version": "0.1.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "LowByteFox",
+  "license": "AGPL-3.0-or-later",
+  "packageManager": "pnpm@10.11.1"
+}
