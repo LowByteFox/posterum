@@ -1,13 +1,33 @@
 {
-  "name": "@posterum/frontend",
-  "version": "0.1.0",
-  "description": "",
-  "main": "",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "LowByteFox",
-  "license": "AGPL-3.0-or-later",
-  "packageManager": "pnpm@10.11.1"
+    "name": "@posterum/frontend",
+    "private": true,
+    "version": "0.1.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite dev",
+        "build": "vite build",
+        "preview": "vite preview",
+        "prepare": "svelte-kit sync || echo ''",
+        "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+        "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+    },
+    "devDependencies": {
+        "@sveltejs/adapter-cloudflare": "^7.0.0",
+        "@sveltejs/kit": "^2.16.0",
+        "@sveltejs/vite-plugin-svelte": "^5.0.0",
+        "@tailwindcss/forms": "^0.5.9",
+        "@tailwindcss/vite": "^4.0.0",
+        "svelte": "^5.0.0",
+        "svelte-check": "^4.0.0",
+        "tailwindcss": "^4.0.0",
+        "typescript": "^5.0.0",
+        "vite": "^6.2.6"
+    },
+    "keywords": [],
+    "author": "LowByteFox",
+    "license": "AGPL-3.0-or-later",
+    "packageManager": "pnpm@10.11.1",
+    "dependencies": {
+        "@posterum/frontend": "link:"
+    }
 }
