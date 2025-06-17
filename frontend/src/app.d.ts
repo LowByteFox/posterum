@@ -10,4 +10,8 @@ declare global {
 	}
 }
 
+declare module '@fortawesome/free-solid-svg-icons/index.js' {
+  export * from '@fortawesome/free-solid-svg-icons';
+}
+
 export {};

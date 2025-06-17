@@ -28,6 +28,9 @@
     "license": "AGPL-3.0-or-later",
     "packageManager": "pnpm@10.11.1",
     "dependencies": {
-        "@posterum/frontend": "link:"
+        "@fortawesome/free-solid-svg-icons": "^6.7.2",
+        "@posterum/frontend": "link:",
+        "inter-ui": "^4.1.0",
+        "svelte-fa": "^4.0.4"
     }
 }
